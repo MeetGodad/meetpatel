@@ -43,7 +43,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="m-14">
+    <section className="m-16">
       <div className="max-w-lg mx-auto  p-8 rounded shadow-xl">
         <h2 className="text-3xl font-bold text-white mb-4">Contact Me</h2>
         <p className="text-gray-300 mb-4">

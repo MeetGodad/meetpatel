@@ -10,7 +10,7 @@ const Intro = () => {
   };
 
   return (
-    <div className="relative h-screen flex flex-col items-center justify-center  text-white overflow-hidden">
+    <div className="relative h-screen flex flex-col items-center justify-center  text-white overflow-hidden m-16">
       <div className="absolute inset-0 opacity-60"></div>
       <div className="relative z-10 text-center px-6 md:px-12">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent leading-tight">

@@ -32,7 +32,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="next-section" className="py-10">
+    <section id="next-section" className="py-10 m-16">
       <h2 className="text-5xl font-bold text-center text-white mb-8">Skills</h2>
       <div className="container mx-auto">
         {['Frontend', 'Backend', 'Database', 'Languages', 'Tools', 'Design'].map((category) => (

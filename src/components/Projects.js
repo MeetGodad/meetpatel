@@ -1,6 +1,6 @@
 import React from 'react';
 import { 
-  FaReact, FaNodeJs, FaDatabase, FaFigma, FaGitAlt, FaGithub, FaJsSquare 
+  FaReact, FaNodeJs, FaFigma, FaGitAlt, FaGithub, FaJsSquare 
 } from 'react-icons/fa';
 import { 
   SiNextdotjs, SiPostgresql, SiFirebase, SiTailwindcss, SiDotnet, SiCsharp, SiMongodb, SiVisualstudio, SiNeovim, SiMysql 
@@ -13,6 +13,7 @@ const projects = [
     image: 'images/Tech Textile 1.png',
     demoLink: 'https://techtextile.vercel.app/',
     codeLink: 'https://github.com/MeetGodad/techtextile/blob/master/README.md',
+    figmaLink: 'https://www.figma.com/proto/ylGaltyfZVWfIxroxmOKA1/Tech-Textile?node-id=78-95&node-type=canvas&t=3hKqN9G4TLdTJW8l-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A169&show-proto-sidebar=1',
     techStack: ['JavaScript', 'React', 'Next.js', 'Node', 'PostgreSQL', 'NeonDatabase', 'Firebase', 'Figma', 'Git', 'GitHub', 'TailwindCSS'],
   },
   {
@@ -37,9 +38,19 @@ const projects = [
     image: 'images/Gameboard.jpg',
     demoLink: '',
     codeLink: 'https://github.com/MeetGodad/TacTical-TicTacToe/blob/main/README.md',
+    figmaLink: 'https://www.figma.com/proto/EqAN00RMcquH1XeMJAIrZC/Tactical-TicTacToe-App?node-id=1-4&node-type=canvas&t=eek7AuefN9NWE5gt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4',
     techStack: ['React Native', 'JavaScript', 'React Native Async Storage', 'Figma', 'Git', 'GitHub'],
      isMobileApp: true,
   },
+  {
+    title: 'Recreation Center-Figma Wireframe',
+    description: 'A Figma wireframe design for a recreation center Mobile Application. The design includes a Home Page, Schedule Page, Event Page ,Login Page,Payment Page, and Profile Page.',
+    image: 'images/RecreationCenter.png',
+    demoLink: '',
+    codeLink: '',
+    figmaLink: 'https://www.figma.com/proto/Gl0UKwXGFf6Io0cIGd0RIs/P3-Creative-Catalysts--Wireframe?node-id=38-20&node-type=canvas&t=FSaeMVLNoAeGLHQD-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A11',
+    techStack: ['Figma'],
+  }
 ];
 
 const techIcons = {
@@ -124,6 +135,16 @@ const Projects = () => {
                     className="bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-900 transition"
                   >
                     Source Code
+                  </a>
+                )}
+                {project.figmaLink && (
+                  <a 
+                    href={project.figmaLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-pink-500 text-white py-2 px-4 rounded-lg ml-4 hover:bg-pink-600 transition"
+                  >
+                    Figma Design
                   </a>
                 )}
               </div>

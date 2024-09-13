@@ -2,15 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* src/index.css or App.css */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to bottom, #0d0d0dd2, #040c22, #033c75);
+  background: linear-gradient(to bottom, #0d0d0d, #2d0065, #500096, #290142, #52122a); /* Similar gradient to maintain consistency */
   color: #ffffff;
   min-height: 100vh;
   display: flex;
@@ -20,10 +18,11 @@ body {
   transition: background 0.5s ease-in-out;
 }
 
+/* Ensure the entire web app has a consistent gradient background */
+
+
 /* Interactive Background */
-body:hover {
-  background: linear-gradient(to bottom, #1a1a1a, #0d0d0d, #022a5d);
-}
+
 
 /* App container styling */
 .App {
@@ -80,10 +79,40 @@ a:active {
 
 /* Add a shadow effect to the header text */
 h1 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  transition: text-shadow 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-h1:hover {
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+/* In your global CSS file */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background: linear-gradient(-45deg, #007cf0, #00dfd8, #ff0080, #ffcd1e);
+  background-size: 400% 400%;
+  -webkit-background-clip: text; /* Apply gradient to text in WebKit browsers */
+  background-clip: text; /* Apply gradient to text */
+  color: transparent; /* Ensure text color is transparent */
+  animation: gradient 15s ease infinite;
+}
+
+
+
+/* In your global CSS file or a module CSS file */
+@keyframes highlight {
+  0% { color: #09f9f5; }
+  50% { color: #073b9d; }
+  100% { color: #3a0572; }
+}
+
+.highlight-animation {
+  animation: highlight 3s ease infinite;
 }

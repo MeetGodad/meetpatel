@@ -1,9 +1,9 @@
 import React from 'react';
 import {
-  FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt, FaBootstrap, FaJava, FaPython
+  FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt, FaBootstrap, FaJava, FaPython 
 } from 'react-icons/fa';
 import {
-  SiNextdotjs, SiFirebase, SiTailwindcss, SiCsharp, SiMongodb, SiExpress, SiGithub, SiFigma, SiMysql, SiPostgresql, SiTypescript, SiReact
+  SiNextdotjs, SiFirebase, SiTailwindcss, SiCsharp, SiMongodb, SiExpress, SiGithub, SiFigma, SiMysql, SiPostgresql, SiTypescript, SiReact ,SiAdobexd
 } from 'react-icons/si';
 
 const skills = [
@@ -28,6 +28,7 @@ const skills = [
   { name: 'GitHub', icon: <SiGithub size={40} className="text-black" />, category: 'Tools' },
   { name: 'Bootstrap', icon: <FaBootstrap size={40} className="text-purple-500" />, category: 'Tools' },
   { name: 'Figma', icon: <SiFigma size={40} className="text-pink-500" />, category: 'Design' },
+  { name: 'Adobe XD', icon: <SiAdobexd size={40} className="text-red-500" />, category: 'Design' },
 ];
 
 const Skills = () => {

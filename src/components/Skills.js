@@ -1,9 +1,9 @@
 import React from 'react';
 import {
-  FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt, FaBootstrap, FaJava, FaPython 
+  FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt, FaBootstrap, FaJava, FaPython , FaWordpress , FaCpanel
 } from 'react-icons/fa';
 import {
-  SiNextdotjs, SiFirebase, SiTailwindcss, SiCsharp, SiMongodb, SiExpress, SiGithub, SiFigma, SiMysql, SiPostgresql, SiTypescript, SiReact ,SiAdobexd
+  SiNextdotjs, SiFirebase, SiTailwindcss, SiCsharp, SiMongodb, SiExpress, SiGithub, SiFigma, SiMysql, SiPostgresql, SiTypescript, SiReact ,SiAdobexd , SiPhp , SiLaravel 
 } from 'react-icons/si';
 
 const skills = [
@@ -11,10 +11,10 @@ const skills = [
   { name: 'React Native', icon: <SiReact size={40} className="text-blue-500" />, category: 'Frontend' },
   { name: 'Next.js', icon: <SiNextdotjs size={40} className="text-black" />, category: 'Frontend' },
   { name: 'Tailwind CSS', icon: <SiTailwindcss size={40} className="text-blue-600" />, category: 'Frontend' },
-  { name: 'JavaScript', icon: <FaJsSquare size={40} className="text-yellow-500" />, category: 'Frontend' },
-  { name: 'TypeScript', icon: <SiTypescript size={40} className="text-blue-500" />, category: 'Frontend' },
-  { name: 'CSS3', icon: <FaCss3Alt size={40} className="text-blue-500" />, category: 'Frontend' },
-  { name: 'HTML5', icon: <FaHtml5 size={40} className="text-orange-500" />, category: 'Frontend' },
+  { name: 'JavaScript', icon: <FaJsSquare size={40} className="text-yellow-500" />, category: 'Languages' },
+  { name: 'TypeScript', icon: <SiTypescript size={40} className="text-blue-500" />, category: 'Languages' },
+  { name: 'CSS3', icon: <FaCss3Alt size={40} className="text-blue-500" />, category: 'Languages' },
+  { name: 'HTML5', icon: <FaHtml5 size={40} className="text-orange-500" />, category: 'Languages' },
   { name: 'Node.js', icon: <FaNodeJs size={40} className="text-green-500" />, category: 'Backend' },
   { name: 'Express', icon: <SiExpress size={40} className="text-gray-700" />, category: 'Backend' },
   { name: 'MongoDB', icon: <SiMongodb size={40} className="text-green-700" />, category: 'Database' },
@@ -22,8 +22,12 @@ const skills = [
   { name: 'PostgreSQL', icon: <SiPostgresql size={40} className="text-blue-800" />, category: 'Database' },
   { name: 'Java', icon: <FaJava size={40} className="text-red-500" />, category: 'Languages' },
   { name: 'Python', icon: <FaPython size={40} className="text-yellow-500" />, category: 'Languages' },
+  { name: 'PHP', icon: <SiPhp size={40} className="text-blue-500" />, category: 'Languages' },
+  { name: 'Laravel', icon: <SiLaravel size={40} className="text-red-500" />, category: 'Languages' },
   { name: 'C#', icon: <SiCsharp size={40} className="text-purple-500" />, category: 'Languages' },
   { name: 'Firebase', icon: <SiFirebase size={40} className="text-yellow-500" />, category: 'Tools' },
+  {name: 'Wordpress', icon: <FaWordpress size={40} className="text-blue-500" />, category: 'Tools' },
+  {name: 'Cpanel', icon: <FaCpanel size={40} className="text-blue-500" />, category: 'Tools' },
   { name: 'Git', icon: <FaGitAlt size={40} className="text-red-500" />, category: 'Tools' },
   { name: 'GitHub', icon: <SiGithub size={40} className="text-black" />, category: 'Tools' },
   { name: 'Bootstrap', icon: <FaBootstrap size={40} className="text-purple-500" />, category: 'Tools' },

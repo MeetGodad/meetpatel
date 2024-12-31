@@ -50,6 +50,14 @@ const projects = [
     codeLink: '',
     figmaLink: 'https://www.figma.com/proto/Gl0UKwXGFf6Io0cIGd0RIs/P3-Creative-Catalysts--Wireframe?node-id=38-20&node-type=canvas&t=FSaeMVLNoAeGLHQD-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A11',
     techStack: ['Figma'],
+  },
+  {
+    title: 'RBC AI Assistant',
+    description: 'An AI-powered chatbot for seamless interaction with RBC services. Built with React, Next.js, Tailwind CSS, and OpenAI API, it automates tasks like Checking Different kind of Available Accounts and also does calculations about interests , featuring a user-friendly UI and scalable architecture.',
+    image: 'images/RBCAIAssistant.png',
+    demoLink: 'https://rbc-chatbot.vercel.app/',
+    codeLink: 'https://github.com/MeetGodad/rbc-chatbot',
+    techStack: ['React', 'Next.js', 'Tailwind CSS', 'OpenAI API']
   }
 ];
 

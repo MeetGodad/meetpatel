@@ -1,9 +1,8 @@
 import React from 'react';
 import {
-  FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt, FaBootstrap, FaJava, FaPython , FaWordpress , FaCpanel
-} from 'react-icons/fa';
+  FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt, FaBootstrap, FaJava, FaPython , FaWordpress , FaCpanel } from 'react-icons/fa';
 import {
-  SiNextdotjs, SiFirebase, SiTailwindcss, SiCsharp, SiMongodb, SiExpress, SiGithub, SiFigma, SiMysql, SiPostgresql, SiTypescript, SiReact ,SiAdobexd , SiPhp , SiLaravel 
+  SiNextdotjs, SiFirebase, SiTailwindcss, SiCsharp, SiMongodb, SiExpress, SiGithub, SiFigma, SiMysql, SiPostgresql, SiTypescript, SiReact ,SiAdobexd , SiPhp , SiLaravel , SiSpringboot ,SiDocker ,SiKubernetes
 } from 'react-icons/si';
 
 const skills = [
@@ -17,6 +16,7 @@ const skills = [
   { name: 'HTML5', icon: <FaHtml5 size={40} className="text-orange-500" />, category: 'Languages' },
   { name: 'Node.js', icon: <FaNodeJs size={40} className="text-green-500" />, category: 'Backend' },
   { name: 'Express', icon: <SiExpress size={40} className="text-gray-700" />, category: 'Backend' },
+  { name: 'Spring Boot', icon: <SiSpringboot size={40} className="text-green-500" />, category: 'Backend' },
   { name: 'MongoDB', icon: <SiMongodb size={40} className="text-green-700" />, category: 'Database' },
   { name: 'MySQL', icon: <SiMysql size={40} className="text-blue-600" />, category: 'Database' },
   { name: 'PostgreSQL', icon: <SiPostgresql size={40} className="text-blue-800" />, category: 'Database' },
@@ -25,6 +25,8 @@ const skills = [
   { name: 'PHP', icon: <SiPhp size={40} className="text-blue-500" />, category: 'Languages' },
   { name: 'Laravel', icon: <SiLaravel size={40} className="text-red-500" />, category: 'Languages' },
   { name: 'C#', icon: <SiCsharp size={40} className="text-purple-500" />, category: 'Languages' },
+  { name: 'Docker', icon: <SiDocker size={40} className="text-blue-300" />, category: 'Tools' },
+  { name: 'Kubernetes', icon: <SiKubernetes size={40} className="text-blue-500" />, category: 'Tools' },
   { name: 'Firebase', icon: <SiFirebase size={40} className="text-yellow-500" />, category: 'Tools' },
   {name: 'Wordpress', icon: <FaWordpress size={40} className="text-blue-500" />, category: 'Tools' },
   {name: 'Cpanel', icon: <FaCpanel size={40} className="text-blue-500" />, category: 'Tools' },

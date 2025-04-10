@@ -20,7 +20,7 @@ const Intro = () => {
 
         <div className="max-w-4xl mx-auto">
           <p className="text-lg md:text-xl mb-8 leading-relaxed transition-transform transform  p-4 rounded-lg">
-            I’m a dedicated <span className="highlight-animation">Full-Stack Developer</span> and <span className="highlight-animation">UI/UX Designer</span> with a passion for creating stunning and high-performing web applications.
+            I’m a dedicated <span className="highlight-animation">Full-Stack Developer</span> and <span className="highlight-animation">IT Professional</span> with a passion for creating stunning and high-performing web applications.
             My goal is to deliver seamless and engaging user experiences that not only meet but exceed your expectations.
           </p>
         </div>

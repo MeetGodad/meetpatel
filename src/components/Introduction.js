@@ -19,10 +19,9 @@ const Intro = () => {
         </h1>
 
         <div className="max-w-4xl mx-auto">
-          <p className="text-lg md:text-xl mb-8 leading-relaxed transition-transform transform  p-4 rounded-lg">
-            I’m a dedicated <span className="highlight-animation">Full-Stack Developer</span> and <span className="highlight-animation">IT Professional</span> with a passion for creating stunning and high-performing web applications.
-            My goal is to deliver seamless and engaging user experiences that not only meet but exceed your expectations.
-          </p>
+        <p className="text-lg md:text-xl mb-8 leading-relaxed transition-transform transform p-4 rounded-lg">
+          I’m a driven IT Professional with expertise in Full-Stack Development, system operations, and digital solutions. I’m passionate about building seamless user experiences, optimizing IT infrastructures, and continuously expanding my skill set. Currently, I’m actively learning more about Artificial Intelligence and Machine Learning to stay at the forefront of technology and innovation.
+        </p>
         </div>
         <button
           className="px-8 py-4 text-lg font-semibold bg-gradient-to-r from-yellow-500 to-red-500 text-gray-900 rounded-full shadow-lg hover:bg-gradient-to-r hover:from-red-500 hover:to-yellow-500 hover:text-gray-100 transition-transform transform hover:scale-110"

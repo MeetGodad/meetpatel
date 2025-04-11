@@ -6,6 +6,7 @@ import {
 } from 'react-icons/si';
 import { TbBrandCSharp } from "react-icons/tb";
 
+
 const skills = [
   { name: 'React', icon: <FaReact size={40} className="text-blue-500" />, category: 'Frontend' },
   { name: 'React Native', icon: <SiReact size={40} className="text-blue-500" />, category: 'Frontend' },
@@ -24,6 +25,7 @@ const skills = [
   { name: 'Java', icon: <FaJava size={40} className="text-red-500" />, category: 'Languages' },
   { name: 'Python', icon: <FaPython size={40} className="text-yellow-500" />, category: 'Languages' },
   { name: 'PHP', icon: <SiPhp size={40} className="text-blue-500" />, category: 'Languages' },
+  { name: 'XBRL', icon: <img src='/icons/XBRL.svg' alt='XBRL' className='w-20' />, category: 'Languages' },
   { name: 'Laravel', icon: <SiLaravel size={40} className="text-red-500" />, category: 'Languages' },
   { name: 'C#', icon: <TbBrandCSharp size={40} className="text-blue-500" />, category: 'Languages' },
   { name: 'Docker', icon: <SiDocker size={40} className="text-blue-300" />, category: 'Tools' },

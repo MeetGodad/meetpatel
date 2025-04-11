@@ -2,8 +2,9 @@ import React from 'react';
 import {
   FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaNodeJs, FaGitAlt, FaBootstrap, FaJava, FaPython , FaWordpress , FaCpanel } from 'react-icons/fa';
 import {
-  SiNextdotjs, SiFirebase, SiTailwindcss, SiCsharp, SiMongodb, SiExpress, SiGithub, SiFigma, SiMysql, SiPostgresql, SiTypescript, SiReact ,SiAdobexd , SiPhp , SiLaravel , SiSpringboot ,SiDocker ,SiKubernetes
+  SiNextdotjs, SiFirebase, SiTailwindcss, SiMongodb, SiExpress, SiGithub, SiFigma, SiMysql, SiPostgresql, SiTypescript, SiReact ,SiAdobexd , SiPhp , SiLaravel , SiSpringboot ,SiDocker ,SiKubernetes
 } from 'react-icons/si';
+import { TbBrandCSharp } from "react-icons/tb";
 
 const skills = [
   { name: 'React', icon: <FaReact size={40} className="text-blue-500" />, category: 'Frontend' },
@@ -24,7 +25,7 @@ const skills = [
   { name: 'Python', icon: <FaPython size={40} className="text-yellow-500" />, category: 'Languages' },
   { name: 'PHP', icon: <SiPhp size={40} className="text-blue-500" />, category: 'Languages' },
   { name: 'Laravel', icon: <SiLaravel size={40} className="text-red-500" />, category: 'Languages' },
-  { name: 'C#', icon: <SiCsharp size={40} className="text-purple-500" />, category: 'Languages' },
+  { name: 'C#', icon: <TbBrandCSharp size={40} className="text-blue-500" />, category: 'Languages' },
   { name: 'Docker', icon: <SiDocker size={40} className="text-blue-300" />, category: 'Tools' },
   { name: 'Kubernetes', icon: <SiKubernetes size={40} className="text-blue-500" />, category: 'Tools' },
   { name: 'Firebase', icon: <SiFirebase size={40} className="text-yellow-500" />, category: 'Tools' },

@@ -3,8 +3,10 @@ import {
   FaReact, FaNodeJs, FaFigma, FaGitAlt, FaGithub, FaJsSquare 
 } from 'react-icons/fa';
 import { 
-  SiNextdotjs, SiPostgresql, SiFirebase, SiTailwindcss, SiDotnet, SiCsharp, SiMongodb, SiVisualstudio, SiNeovim, SiMysql 
+  SiNextdotjs, SiPostgresql, SiFirebase, SiTailwindcss, SiDotnet,SiMongodb, SiNeovim, SiMysql 
 } from 'react-icons/si';
+import { BiLogoVisualStudio } from "react-icons/bi";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const projects = [
   {
@@ -74,10 +76,10 @@ const techIcons = {
   'GitHub': <FaGithub size={20} className="text-black" />,
   'TailwindCSS': <SiTailwindcss size={20} className="text-blue-600" />,
   '.NET': <SiDotnet size={20} className="text-purple-500" />,
-  'C#': <SiCsharp size={20} className="text-purple-500" />,
+  'C#': <TbBrandCSharp size={20} className="text-blue-500" />,
   'MongoDB': <SiMongodb size={20} className="text-green-700" />,
   'JavaScript': <FaJsSquare size={20} className="text-yellow-500" />,
-  'Visual Studio IDE': <SiVisualstudio size={20} className="text-blue-500" />,
+  'Visual Studio IDE': <BiLogoVisualStudio size={20} className="text-blue-500" />,
   'NeonDatabase': <SiNeovim size={20} className="text-green-500" />, 
   'MySQL': <SiMysql size={20} className="text-blue-600" />
 };

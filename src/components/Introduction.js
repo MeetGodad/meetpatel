@@ -30,16 +30,16 @@ const Intro = () => {
           Discover More
         </button>
         <div className="mt-6 flex justify-center space-x-6">
-      {/* LinkedIn Icon */}
-     
+
+    {/* LinkedIn Icon */}
     <a
       href="https://www.linkedin.com/in/meet-godad/"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-gray-200 hover:text-white hover:fill-blue-400 transition-colors"
+      className="text-gray-200 hover:text-white hover:fill-blue-400 hover: transition-colors"
       aria-label="LinkedIn Profile"
     >
-      <FaLinkedin className="w-12 h-12 transition-transform transform hover:scale-110 svg-icon" />
+      <FaLinkedin className="w-12 h-12 transition-transform transform hover:scale-110 svg-icon hover:fill-blue-400 hover:text-white" />
     </a>
       {/* GitHub Icon */}
       <a

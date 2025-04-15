@@ -19,6 +19,14 @@ const projects = [
     techStack: ['JavaScript', 'React', 'Next.js', 'Node', 'PostgreSQL', 'NeonDatabase', 'Firebase', 'Figma', 'Git', 'GitHub', 'TailwindCSS'],
   },
   {
+    title: 'RBC AI Assistant',
+    description: 'An AI-powered chatbot for seamless interaction with RBC services. Built with React, Next.js, Tailwind CSS, and OpenAI API, it automates tasks like Checking Different kind of Available Accounts and also does calculations about interests , featuring a user-friendly UI and scalable architecture.',
+    image: 'images/RBCAIAssistant.png',
+    demoLink: 'https://rbc-chatbot.vercel.app/',
+    codeLink: 'https://github.com/MeetGodad/rbc-chatbot',
+    techStack: ['React', 'Next.js', 'Tailwind CSS', 'OpenAI API']
+  },
+  {
     title: '.NET Project of Event Application',
     description: 'Meet_Final_Of_MAUIApp is a MAUI desktop application designed to manage concert events. The application connects to a database to store and retrieve event information, providing a user-friendly graphical user interface (GUI) for interaction. This project integrates various elements from previous assignments to create a cohesive and functional application.',
     image: 'images/NETMAUIAPP.png',
@@ -52,15 +60,8 @@ const projects = [
     codeLink: '',
     figmaLink: 'https://www.figma.com/proto/Gl0UKwXGFf6Io0cIGd0RIs/P3-Creative-Catalysts--Wireframe?node-id=38-20&node-type=canvas&t=FSaeMVLNoAeGLHQD-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A11',
     techStack: ['Figma'],
-  },
-  {
-    title: 'RBC AI Assistant',
-    description: 'An AI-powered chatbot for seamless interaction with RBC services. Built with React, Next.js, Tailwind CSS, and OpenAI API, it automates tasks like Checking Different kind of Available Accounts and also does calculations about interests , featuring a user-friendly UI and scalable architecture.',
-    image: 'images/RBCAIAssistant.png',
-    demoLink: 'https://rbc-chatbot.vercel.app/',
-    codeLink: 'https://github.com/MeetGodad/rbc-chatbot',
-    techStack: ['React', 'Next.js', 'Tailwind CSS', 'OpenAI API']
   }
+ 
 ];
 
 const techIcons = {
@@ -132,7 +133,7 @@ const Projects = () => {
                     href={project.demoLink} 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="bg-blue-500 text-white py-2 px-4 rounded-lg mr-4 hover:bg-blue-600 transition"
+                    className="bg-blue-500 text-white py-2 px-4 rounded-lg mr-4 hover:bg-blue-600 hover:text-blue-950 transition"
                   >
                     View Demo
                   </a>

@@ -3,10 +3,11 @@ import {
   FaReact, FaNodeJs, FaFigma, FaGitAlt, FaGithub, FaJsSquare 
 } from 'react-icons/fa';
 import { 
-  SiNextdotjs, SiPostgresql, SiFirebase, SiTailwindcss, SiDotnet,SiMongodb, SiNeovim, SiMysql 
+  SiNextdotjs, SiPostgresql, SiFirebase, SiTailwindcss, SiDotnet,SiMongodb, SiNeovim, SiMysql ,SiOracle
 } from 'react-icons/si';
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { TbBrandCSharp } from "react-icons/tb";
+import { PiFileSql } from "react-icons/pi";
 
 const projects = [
   {
@@ -25,6 +26,15 @@ const projects = [
     demoLink: 'https://rbc-chatbot.vercel.app/',
     codeLink: 'https://github.com/MeetGodad/rbc-chatbot',
     techStack: ['React', 'Next.js', 'Tailwind CSS', 'OpenAI API']
+  },
+  {
+    title: 'WKIS Accounting System - SQL/PLSQL Solution',
+    description: 'This project implements a double-entry accounting system for We Keep It Storage (WKIS) using Oracle SQL and PL/SQL. The solution automates transaction processing, maintains account balances, and enforces accounting rules through robust database design and exception handling.',
+    image: "images/WKIS ERD.jpg",
+    docLink: "https://docs.google.com/document/d/1mIa054j1qmBxAv5CnfLOz3Mn5wp-jKVrexdIVTSIZiE/edit?usp=sharing",
+    codeLink: "https://github.com/MeetGodad/SQL-Accounting-System-Project",
+    techStack: ["PL/SQL", "Oracle Database"]
+    
   },
   {
     title: '.NET Project of Event Application',
@@ -82,7 +92,10 @@ const techIcons = {
   'JavaScript': <FaJsSquare size={20} className="text-yellow-500" />,
   'Visual Studio IDE': <BiLogoVisualStudio size={20} className="text-blue-500" />,
   'NeonDatabase': <SiNeovim size={20} className="text-green-500" />, 
-  'MySQL': <SiMysql size={20} className="text-blue-600" />
+  'MySQL': <SiMysql size={20} className="text-blue-600" />,
+  'PL/SQL': <PiFileSql size={20} className="text-blue-600" />,
+  'Oracle Database': <SiOracle size={20} className="text-red-500" />,
+
 };
 
 const Projects = () => {
@@ -136,6 +149,16 @@ const Projects = () => {
                     className="bg-blue-500 text-white py-2 px-4 rounded-lg mr-4 hover:bg-blue-600 hover:text-blue-950 transition"
                   >
                     View Demo
+                  </a>
+                )}
+                { project.docLink && (
+                  <a 
+                    href={project.docLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-blue-500 text-white py-2 px-4 rounded-lg mr-4 hover:bg-blue-600 hover:text-blue-950 transition"
+                  >
+                    View Documentation
                   </a>
                 )}
                 {project.codeLink && (

@@ -11,8 +11,8 @@ function App() {
   return (
     <div >
       <Introduction />
-      <Skills />
       <Projects />
+      <Skills />
       <Contact />
     </div>
   );
